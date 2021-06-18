@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(120deg, rgba(122, 250, 2, 0.719), rgba(11, 247, 70, 0.774)), url('.../img/flag copy.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#expense{
+    text-align: center;
+    font-size: 50px;
+}
+#flex{
+    display: flex;
+    margin-left: 100px;
+}
+.addedExpenses{
+    margin-left: 200px;
+}
+h2{
+    font-size: 30px;
+}
+.budget{
+    height: 500px;
+    background: transparent;
+    padding: 10px;
+    border-radius: 100px;
+}
+.budget input{
+    padding: 10px;
+    border-radius: 5px 0px;
+    border: none;
+    outline: none;
+}
+.budget #money{
+    border-radius: 8px 0px 0px 8px;
+    padding: 10px;
+    margin-left: -3px;
+    outline: none;
+    border: none;
+}  
+.budget #addMoney{
+    border-radius: 10px 0px;
+    padding: 7px;
+    margin-left: 90px;
+    outline: none;
+    border: none;
+    width: 90px;
+}
+
+.budget #addMoney:hover{
+    background-color: rgba(65,56,8,0.774);
+    color: white;
+    transition: 1s all;
+    }
+#expenseName, #expenseAmount{
+    width: 280px;
+}
+.budget #addExpense{
+    border-radius: 10px 0px;
+    padding: 7px;
+    margin-left: 90px;
+    outline: none;
+    border: none;
+    width: 90px;
+}
+.budget #addExpense:hover{
+background-color: rgba(65,56,8,0.744);
+color: white;
+transition: 1s all;
+}
+#addedExpenses{
+    font-size: 30px;
+    line-height: 1.5;
+}
+.addedExpenses h2{
+    font-size: 40px;
+    margin-left: 100px;
+}

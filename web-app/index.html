@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="expense">
+    
+    Budget Shopping List
+  </h1>
+  <hr>
+  <div id="flex">
+      <div class="budget">
+    <h2>Total Budget : <span id="totalBudget"> 0</span></h2>
+    <h2>Current Balanace : <span id="curBalance"> 0</span></h2>
+    <br><h2>Add money to budget</h2>
+    <input type="number" placeholder="Add Funds" id="money">
+    <button id="addMoney">Add Money</button>
+    <!--function addMoney will be executed when button is clicked-->
+<h2>Add Expense</h2>
+<input type="text" placeholder="Name of item" id="expenseName"><br><br>
+<input type="number" placeholder="Estimated Price" id="expenseAmount"><br><br>
+        <button id="addExpense">Add Expense</button> 
+        <!--function addExpense will be executed when button is clicked-->
+    </div>
+<h2>Added Expenses:</h2>
+<div class="addedExpenses"></div>
+<div id="addedExpenses"></div>
+</div>
+  </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
