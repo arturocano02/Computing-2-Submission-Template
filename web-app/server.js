@@ -11,7 +11,7 @@ app.use(session({
     "saveUninitialized": false
 }));
 
-app.use("/er", express.static("web-app/static"));
+app.use("/", express.static("web-app/static"));
 
 app.use("/", express.json());
 app.post("/", function (req, res) {

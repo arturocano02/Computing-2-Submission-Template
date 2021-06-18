@@ -82,4 +82,3 @@ var addExpense = function (balance, amount, name) {
 };
 
 
-
